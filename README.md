@@ -1,4 +1,4 @@
-# FOSS-final_project - 소프트웨어학과 201720707 나용성
+# FOSS-FinalProject - 소프트웨어학과 201720707 나용성
 
 # 번역 프로젝트 보고서
 
