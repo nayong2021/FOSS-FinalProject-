@@ -1,0 +1,1097 @@
+diff --git a/docs/README.md b/docs/README.md
+index 9a1e1f9..be984b3 100644
+--- a/docs/README.md
++++ b/docs/README.md
+@@ -2,54 +2,54 @@
+ 
+ [![](https://img.shields.io/github/tag/shd101wyy/markdown-preview-enhanced.svg)](https://github.com/shd101wyy/markdown-preview-enhanced/releases) ![](https://img.shields.io/apm/dm/markdown-preview-enhanced.svg) [![](https://img.shields.io/github/stars/shd101wyy/markdown-preview-enhanced.svg?style=social&label=Star)](https://github.com/shd101wyy/markdown-preview-enhanced)
+ 
+-**Markdown Preview Enhanced** is a **SUPER POWERFUL** markdown extension for [**Atom**](https://atom.io/packages/markdown-preview-enhanced) and [**Visual Studio Code**](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced).
+-The goal of this project is to bring you a wonderful markdown writing experience.
+ 
+-Post [here](https://github.com/shd101wyy/markdown-preview-enhanced/issues) if you request new features or you want to report bugs ;)
++**Markdown Preview Enhanced**는 [**Atom**](https://atom.io/packages/markdown-preview-enhanced) 과 [**Visual Studio Code**](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)를 위한 **매우 강력한** markdown 확장이다.
++이 프로젝트의 목표는 당신에게 놀라운 markdown 작성 경험을 제공하는 것이다.
+ 
+-If you are interested, please also try out our new prototype web app: [0xGG/crossnote](https://github.com/0xGG/crossnote)
++새로운 기능을 요청하거나 버그를 보고하려면 [여기](https://github.com/shd101wyy/markdown-preview-enhanced/issues)에 게시하기 바란다 ;)
++
++당신이 관심이 있다면, 새로운 프로토타입 웹 앱도 사용해 보는것도 좋을 것이다: [0xGG/crossnote](https://github.com/0xGG/crossnote)
+ 
+ ![intro](https://user-images.githubusercontent.com/1908863/28227953-eb6eefa4-68a1-11e7-8769-96ea83facf3b.png)
+ 
+-## Installation
++## 설치
+ 
+-- [Install on Atom](installation.md)
+-- [Install on VS Code](vscode-installation.md)
++- [Atom에 설치](installation.md)
++- [VS Code에 설치](vscode-installation.md)
+ 
+-## Features
++## 기능
+ 
+-- **Automatic scroll sync**
+-- **[Import external files](file-imports.md)**
++- **자동 스크롤 동기화**
++- **[파일 내보내기, 가져오기](file-imports.md)**
+ - **[Code Chunk](code-chunk.md)**
+ - **[Pandoc](pandoc.md)**
+ - **[Prince](prince.md)**
+ - **[eBook](ebook.md)**
+-- **[Presentation Writer](presentation.md)**
+-- **[Extensible](extend-parser.md)**
++- **[프레젠테이션 작성](presentation.md)**
++- **[parser 확장](extend-parser.md)**
+ - **[LaTeX math](math.md)**
+-- Export **PDF**, **PNG**, and **JPEG** by [Puppeteer](puppeteer.md)
+-- Export beautiful **HTML** (mobile device supported)
+-- [Compile to GitHub Flavored Markdown](markdown.md)
+-- [Customize Preview CSS](customize-css.md)
+-- [TOC](toc.md) generation
+-- [Flowchart / Sequence diagram and many other kinds of graphs](diagrams.md)
+-- [Embed LaTeX, render TikZ, Chemfig etc](code-chunk.md?id=latex)
+-- Task List _(Github Flavored)_
++- [Puppeteer](puppeteer.md)로 **PDF**, **PNG**와  **JPEG** 내보내기 
++- 아름다운 **HTML** 내보내기 (모바일 기기 지원))
++- [GitHub Flavored Markdown으로 컴파일하기](markdown.md)
++- [Preview CSS 사용자 정의](customize-css.md)
++- [목차](toc.md) 만들기
++- [Flowchart / Sequence diagram 그리고 기타 그래프들](diagrams.md)
++- [Embed LaTeX, TikZ, Chemfig등의 렌더링 ](code-chunk.md?id=latex)
++- 작업 목록 _(Github Flavored)_
+ - Image Helper
+-- [Footnotes](https://github.com/shd101wyy/markdown-preview-enhanced/issues/35)
++- [각주](https://github.com/shd101wyy/markdown-preview-enhanced/issues/35)
+ - [Front Matter](https://github.com/shd101wyy/markdown-preview-enhanced/issues/100)
+-- And many more...
++- 등등..
+ 
+ ## Support this project
+ 
+-Markdown Preview Enhanced is an open source project released under the [University of Illinois/NCSA Open Source License](LICENSE.md). Its ongoing development is made possible thanks to the support by these awesome [backers](backers.md). You can help make this project better by [supporting us on GitHub Sponsors](https://github.com/sponsors/shd101wyy), [PayPal](https://shd101wyy.github.io/markdown-preview-enhanced/#/paypal), or [微信支付 Wechat Pay](https://shd101wyy.github.io/markdown-preview-enhanced/#/wechat). Thank you!
+-
+-## Mume - The heart of this project
++Markdown Preview Enhanced는 [University of Illinois/NCSA Open Source License](LICENSE.md)에 따라 출시된 오픈 소스 프로젝트이다. 이 프로젝트는 멋진 [후원자들](backers.md)의 지원 덕분에 지속적인 개발이 가능했다. [GitHub 스폰서](https://github.com/sponsors/shd101wyy), [PayPal](https://shd101wyy.github.io/markdown-preview-enhanced/#/paypal) 또는 [微信支付 Wechat Pay](https://shd101wyy.github.io/markdown-preview-enhanced/#/wechat)에서 지원하여 이 프로젝트를 개선하는 데 도움을 줄 수 있다. 협조에 감사를 표한다.
+ 
+-[Mume](https://github.com/shd101wyy/mume) proudly powers both atom and vscode versions of markdown preview enhanced.
++## Mume - 이 프로젝트의 핵심
++[Mume](https://github.com/shd101wyy/mume)은 markdown previes enhanced의 atom 및 vscode 버전 둘 다 자랑스럽게 제공한다.
+ 
+-## Help translation
++## 번역 도움
+ 
+-If you are willing to help translate this documentation, please contact me by posting an issue [here](https://github.com/shd101wyy/markdown-preview-enhanced/issues).
++만약 당신이 이 문서의 번역을 도울 의향이 있다면 [여기](https://github.com/shd101wyy/markdown-preview-enhanced/issues)에 이슈를 게시하여 나에게 연락하기 바란다.
+ 
+-[➔ Usages](usages.md)
++[➔ 사용법](usages.md)
+diff --git a/docs/_navbar.md b/docs/_navbar.md
+index 51f5995..3fff975 100644
+--- a/docs/_navbar.md
++++ b/docs/_navbar.md
+@@ -1,5 +1,6 @@
+-- Language / 语言
++- 언어 / 语言
+   - [English](/)
+   - [简体中文](/zh-cn/)
+   - [繁體中文](/zh-tw/)
+   - [日本語](/ja-jp/)
++  - [한국어](/ko-kr/)
+diff --git a/docs/_sidebar.md b/docs/_sidebar.md
+index b1932ab..78dfa09 100644
+--- a/docs/_sidebar.md
++++ b/docs/_sidebar.md
+@@ -1,23 +1,23 @@
+-- Getting Started
++- 시작하기
+ 
+-  - [Introduction](/)
+-  - [Usages](usages.md)
+-  - Installation
++  - [소개](/)
++  - [사용법](usages.md)
++  - 설치
+     - [Atom](installation.md)
+     - [VS Code](vscode-installation.md)
+ 
+-- Writing Markdown
++- Markdown 작성하기
+ 
+-  - [Markdown Basics](markdown-basics.md)
+-  - [Math Typesetting](math.md)
+-  - [Diagrams](diagrams.md)
+-  - [TOC](toc.md)
+-  - [File Imports](file-imports.md)
++  - [Markdown 기초문법](markdown-basics.md)
++  - [수식](math.md)
++  - [다이어그램](diagrams.md)
++  - [목차](toc.md)
++  - [파일 가져오기](file-imports.md)
+   - [Code Chunk](code-chunk.md)
+-  - [Presentation](presentation.md)
++  - [프레젠테이션](presentation.md)
+   - [Pandoc](pandoc.md)
+ 
+-- Document Export
++- 문서 내보내기
+ 
+   - [HTML](html.md)
+   - [Puppeteer](puppeteer.md)
+@@ -29,19 +29,19 @@
+     - [Word](pandoc-word.md)
+     - [RTF](pandoc-rtf.md)
+     - [Beamer](pandoc-beamer.md)
+-    - [Custom](pandoc-custom.md)
+-    - [Bibliographies and Citations](pandoc-bibliographies-and-citations.md)
++    - [사용자 정의](pandoc-custom.md)
++    - [참고 문헌 및 인용](pandoc-bibliographies-and-citations.md)
+   - [Markdown (GFM)](markdown.md)
+ 
+-- Customization & Extension
++- 사용자 정의 & 확장
+ 
+-  - [Customize CSS](customize-css.md)
+-  - [Extend Markdown Parser](extend-parser.md)
++  - [CSS 사용자 정의](customize-css.md)
++  - [Markdown Parser 확장](extend-parser.md)
+   - [Image Helper](image-helper.md)
+-  - [For Developer](developer.md)
++  - [개발자에게](developer.md)
+ 
+ - Credits
+-  - [Backers](backers.md)
++  - [후원자 목록](backers.md)
+   - [Thanks](thanks.md)
+ - [Extra](extra.md)
+ - [FAQ](faq.md)
+@@ -50,4 +50,4 @@
+     - [Newest](newest.md)
+     - [History](history.md)
+   - [VS Code](https://github.com/shd101wyy/vscode-markdown-preview-enhanced/releases)
+-- [License](LICENSE.md)
++- [라이센스](LICENSE.md)
+diff --git a/docs/backers.md b/docs/backers.md
+index 564b5a1..aa16b53 100644
+--- a/docs/backers.md
++++ b/docs/backers.md
+@@ -1,14 +1,15 @@
+ # Backers
++# 후원자들
+ 
+-You can join them in supporting Markdown Preview Enhanced development by [pledging on GitHub Sponsors!](https://github.com/sponsors/shd101wyy), [PayPal](paypal.md), or [微信支付 Wechat Pay](wechat.md). Backers in the same pledge level appear in the order of pledge date.
++당신은 [GitHub Sponsors](https://github.com/sponsors/shd101wyy), [PayPal](paypal.md), 또는 [微信支付 Wechat Pay에 서약하여](wechat.md) Markdown Preview Enhanced 개발 지원에 참여할 수 있다. 같은 서약 단계의 후원자는 서약일 순으로 나타난다.
+ 
+-Once you make donation, please email me ( `shd101wyy@gmail.com` ) the content `[your name](link you want) $amount_you_donate`. Your name will be saved to [backers](backers.md) file. Thank you!
++기부를 한 뒤 `[귀하의 이름](원하는 링크) $amount_you_donate` 내용을 이메일( `shd101wyy@gmail.com`)로 보내기 바란다. 귀하의 이름은 [후원자들](backers.md) 파일에 저장될 것이다. 협조에 감사를 표한다!
+ 
+ ---
+ 
+ ## GitHub Sponsors
+ 
+-Please visit [this page](https://github.com/sponsors/shd101wyy) to view listed sponsors 😊.
++스폰서 리스트를 보려면 [이 페이지](https://github.com/sponsors/shd101wyy)를 방문하시오 😊.
+ 
+ ---
+ 
+diff --git a/docs/code-chunk.md b/docs/code-chunk.md
+index 3a33c0f..b132409 100644
+--- a/docs/code-chunk.md
++++ b/docs/code-chunk.md
+@@ -1,8 +1,9 @@
+ # Code Chunk
+ 
+-**Changes might happen in the future.**
++**추후에 변경될 수 있음.**
++
++**Markdown Preview Enhanced** 는 코드의  출력을 문서에 렌더링 할 수 있다.
+ 
+-**Markdown Preview Enhanced** allows you to render code output into documents.
+ 
+     ```bash {cmd}
+     ls .
+@@ -17,52 +18,52 @@
+     console.log(date.toString())
+     ```
+ 
+-> ⚠️ **Script execution is off by default and needs to be explicitly enabled in Atom package / VSCode extension preferences**
++> ⚠️ **스크립트 실행은 기본적으로 비활성화되어 있으며 Atom 패키지 또는 VSCode 확장의 환경설정에서 명시적으로 활성화해야 한다.**
+ >
+-> Please use this feature with caution because it may put your security at risk!
+-> Your machine can get hacked if someone makes you open a markdown with malicious code while script execution is enabled.
++> 이 기능은 보안상 취약하므로 주의하여 사용하기 바란다!
++> 스크립트 실행이 활성화된 상태에서 누군가 악성 코드로 마크다운을 열면 컴퓨터가 해킹될 수 있다.
+ >
+-> Option name: `enableScriptExecution`
++> 이곳에서 설정: `enableScriptExecution`
+ 
+-## Commands & Keyboard Shortcuts
++## 명령 & 키보드 단축키
+ 
+-- `Markdown Preview Enhanced: Run Code Chunk` or <kbd>shift-enter</kbd>
+-  execute single code chunk where your cursor is at.
+-- `Markdown Preview Enhanced: Run All Code Chunks` or <kbd>ctrl-shift-enter</kbd>
+-  execute all code chunks.
++- `Markdown Preview Enhanced: Run Code Chunk` 또는 <kbd>shift-enter</kbd>
++  커서가 있는 곳의 code chunk 하나를 실행한다.
++- `Markdown Preview Enhanced: Run All Code Chunks` 또는 <kbd>ctrl-shift-enter</kbd>
++  모든 code chunk를 실행한다.
+ 
+-## Format
++## 서식
+ 
+-You can configure code chunk options in format of <code>\`\`\`lang {cmd=your_cmd opt1=value1 opt2=value2 ...}</code>.
+-When a value of an attribute is `true`, it can be omitted (e.g. `{cmd hide}` is identical to `{cmd=true hide=true}`).
++code chunk 옵션은 <code>\`\`\`lang {cmd=your_cmd opt1=value1 opt2=value2 ...}</code>형식으로 설정할 수 있다.
++만약 속성의 값이 true 의 경우는, 생략할 수 있다. (예: {cmd hide} 는 {cmd=true hide=true} 와 동일).
+ 
+ **lang**
+-The grammar that the code block should highlight.
+-It should be put at the most front.
++코드 블록이 강조 표시해야 하는 문법으로 가장 앞에 놓여야 한다.
+ 
+-## Basic Options
++## 기본 옵션
+ 
+ **cmd**
+-The command to run.
+-If `cmd` is not provided, then `lang` will be regarded as command.
++실행할 명령.
++`cmd` 가 지정되지 않은 경우 then `lang` 를 명령으로 사용한다.
+ 
+-eg:
++예시:
+ 
+     ```python {cmd="/usr/local/bin/python3"}
+     print("This will run python3 program")
+     ```
+ 
+-**output**
++**출력**
+ `html`, `markdown`, `text`, `png`, `none`
+ 
+-Defines how to render code output.
+-`html` will append output as html.
+-`markdown` will parse output as markdown. (MathJax and graphs will not be supported in this case, but KaTeX works)
+-`text` will append output to a `pre` block.
+-`png` will append output as `base64` image.
+-`none` will hide the output.
++어느 형식으로 코드의 출력을 렌더링 할 지 정의한다.
++
++`html` 은 html로 출력을 추가한다.
++`markdown` 은 출력을 markdown으로 분석한다. (MathJax 및 graphs는 지원되지 않지만 KaTex는 지원한다.)
++`text`는 출력을 `pre` 블록에 추가한다다.
++`png` 는 출력을 `base64` 이미지로 추가한다.
++`none` 은 출력을 표시하지 않는다.
+ 
+-eg:
++예시:
+ 
+     ```gnuplot {cmd=true output="html"}
+     set terminal svg
+@@ -77,7 +78,7 @@ eg:
+ ![screen shot 2017-07-28 at 7 14 24 am](https://user-images.githubusercontent.com/1908863/28716734-66142a5e-7364-11e7-83dc-a66df61971dc.png)
+ 
+ **args**
+-args that append to command. eg:
++명령에 추가되는 인자. 예시:
+ 
+     ```python {cmd=true args=["-v"]}
+     print("Verbose will be printed first")
+@@ -88,20 +89,20 @@ args that append to command. eg:
+     ```
+ 
+ **stdin**
+-If `stdin` is set to true, then the code will be passed as stdin instead of as file.
++`stdin` 이 true로 설정된 경우 코드는 파일이 아닌 표준 입력으로 전달된다.
+ 
+ **hide**
+-`hide` will hide code chunk but only leave the output visible. default: `false`
+-eg:
++`hide`는 code chunk는 숨기지만 출력 결과는 표시한다. 기본값: `false` 
++예시:
+ 
+     ```python {hide=true}
+     print('you can see this output message, but not this code')
+     ```
+ 
+ **continue**
+-If set `continue=true`, then this code chunk will continue from the last code chunk.
+-If set `continue=id`, then this code chunk will continue from the code chunk of id.
+-eg:
++`continue = true`로 설정된 경우, code chunk는 이전 code chunk에 이어 연속적으로 실행된다.
++continue = id로 설정된 경우, code chunk는 동일한 id가 설정된 code chunk에 이어 연속적으로 실행된다. 
++예시:
+ 
+     ```python {cmd=true id="izdlk700"}
+     x = 1
+@@ -116,38 +117,37 @@ eg:
+     ```
+ 
+ **class**
+-If set `class="class1 class2"`, then `class1 class2` will be add to the code chunk.
++`class="class1 class2"`로 설정하면 `class1 class2`가 code chunk 에 추가된다.
+ 
+-- `line-numbers` class will show line numbers to code chunk.
++- `line-numbers` 클래스가 추가된 code chunk에는 행 번호가 표시된다.
+ 
+ **element**
+-The element that you want to append after.
+-Check the **Plotly** example below.
++뒤에 추가하고자 하는 요소.
++아래의 **Plotly** 예제를 참조하기 바람.
+ 
+ **run_on_save** `boolean`
+-Run code chunk when the markdown file is saved. Default `false`.
++markdown file이 저장될 때 code chunk를 실행한다. 기본값 `false`.
+ 
+ **modify_source** `boolean`
+-Insert code chunk output directly into markdown source file. Default `false`.
++markdown 소스 파일에 code chunk의 출력 결과를 직접 삽입한다. Default `false`.
+ 
+ **id**
+-The `id` of the code chunk. This option would be useful if `continue` is used.
++code chunk의 `id`. `continue` 옵션을 사용할 때 유용하다.
+ 
+ ## Macro
+ 
+ - **input_file**
+-  `input_file` is automatically generated under the same directory of your markdown file and will be deleted after running code that is copied to `input_file`.
+-  By default, it is appended at the very end of program arguments.
+-  However, you can set the position of `input_file` in your `args` option by `$input_file` macro. eg:
++  `input_file` 은 markdown 파일과 동일한 디렉토리에 자동으로 생성되며 `input_file`에 복사 된 코드 실행이 완료되면 자동으로 삭제된다. 
++  기본적으로 프로그램 인수의 맨 끝에 추가된다.
++  그러나, `$input_file` 매크로의 `args` 에 `input_file` 이 저장될 위치를 설정할 수도 있다. 예:
+ 
+       ```program {cmd=true args=["-i", "$input_file", "-o", "./output.png"]}
+       ...your code here
+       ```
+ 
+ ## Matplotlib
+-
+-If set `matplotlib=true`, then the python code chunk will plot graphs inline in the preview.
+-eg:
++`matplotlib = true`로 설정되면 python code chunk가 preview에 즉시 그래프를 그릴 것이다.
++예:
+ 
+     ```python {cmd=true matplotlib=true}
+     import matplotlib.pyplot as plt
+@@ -159,9 +159,7 @@ eg:
+ 
+ ## LaTeX
+ 
+-Markdown Preview Enhanced also supports `LaTeX` compilation.
+-Before using this feature, you need to have [pdf2svg](extra.md?id=install-svg2pdf) and [LaTeX engine](extra.md?id=install-latex-distribution) installed.
+-Then you can simply write LaTeX in code chunk like this:
++Markdown Preview Enhanced는 `LaTeX` 컴파일도 지원한다. 이 기능을 사용하려면 [pdf2svg](extra.md?id=install-svg2pdf) 와 [LaTeX engine](extra.md?id=install-latex-distribution)을 설치해야 한다. 그 다음 LaTex code chunk를 다음과 같이 작성할 수 있다:
+ 
+     ```latex {cmd=true}
+     \documentclass{standalone}
+@@ -172,38 +170,38 @@ Then you can simply write LaTeX in code chunk like this:
+ 
+ ![screen shot 2017-07-28 at 7 15 16 am](https://user-images.githubusercontent.com/1908863/28716762-8686d980-7364-11e7-9669-71138cb2e6e7.png)
+ 
+-### LaTeX output configuration
++### LaTeX 출력 설정
+ 
+ **latex_zoom**
+-If set `latex_zoom=num`, then the result will be scaled `num` times.
++`latex_zoom=num`이 설정되면, 출력 결과는 `num` 배로 표시된다.
+ 
+ **latex_width**
+-The width of result.
++출력 결과의 너비.
+ 
+ **latex_height**
+-The height of result.
++출력 결과의 높이.
+ 
+ **latex_engine**
+-The latex engine that you used to compile `tex` file. By default `pdflatex` is used.
++`tex` 파일을 컴파일하는 데 사용되는 latex engine을 설정한다. 기본값으로 `pdflatex` 를 사용한다.
+ 
+ ### TikZ example
+ 
+-It is recommended to use `standalone` while drawing `tikz` graphs.
++`tikz` 그래프를 그리는 경우 `standalone` 을 사용하는 것을 추천한다.
+ ![screen shot 2017-07-14 at 11 27 56 am](https://user-images.githubusercontent.com/1908863/28221069-8113a5b0-6887-11e7-82fa-23dd68f2be82.png)
+ 
+ ## Plotly
+ 
+-Markdown Preview Enhanced allows you to draw [Plotly](https://plot.ly/) easily.
+-For example:
++Markdown Preview Enhanced를 이용하면 [Plotly](https://plot.ly/) 를 쉽게 그릴 수 있다.
++예를 들어:
+ ![screen shot 2017-10-20 at 10 41 25 am](https://user-images.githubusercontent.com/1908863/31829580-526a0c06-b583-11e7-82f2-09ea7a0b9672.png)
+ 
+-- The first line `@import "https://cdn.plot.ly/plotly-latest.min.js"` uses the [file import](file-imports.md) functionality to import `plotly-latest.min.js` file.
+-  However, it is recommended to download the js file to local disk for better performance.
+-- Then we created a `javascript` code chunk.
++- 첫 번째 줄의 `@import "https://cdn.plot.ly/plotly-latest.min.js"`는 [file import](file-imports.md) 기능을 사용하여 `plotly-latest.min.js` 파일을 import한다. 
++  그러나 성능 측면에선 로컬 디스크로 js 파일을 다운로드하는 것이 더 좋다.
++- 그 다음, 나머지는 `javascript` code chunk를 쓰는 것이다.
+ 
+ ## Demo
+ 
+-This demo shows you how to render entity-relation diagram by using [erd](https://github.com/BurntSushi/erd) library.
++entity-relation diagram을 [erd](https://github.com/BurntSushi/erd) 라이브러리로 그리는 방법의 데모이다.
+ 
+     ```erd {cmd=true output="html" args=["-i", "$input_file" "-f", "svg"]}
+ 
+@@ -224,15 +222,15 @@ This demo shows you how to render entity-relation diagram by using [erd](https:/
+ 
+ `erd {cmd=true output="html" args=["-i", "$input_file", "-f", "svg"]}`
+ 
+-- `erd` the program that we are using. (_you need to have the program installed first_)
+-- `output="html"` we will append the running result as `html`.
+-- `args` field shows the arguments that we will use.
++- `erd` 사용중인 프로그램 (_처음에 프로그램을 설치해야 함_)
++- `output="html"` `html` 로 출력 결과를 추가한다.
++- `args` 필드는 사용할 인자를 지정한다.
+ 
+-Then we can click the `run` button at the preview to run our code.
++미리보기에서 `run` 버튼을 클릭하여 코드를 실행할 수 있다.
+ 
+ ![erd](https://user-images.githubusercontent.com/1908863/28221395-bcd0bd76-6888-11e7-8c6e-925e228d02cc.gif)
+ 
+-## Showcases (outdated)
++## Showcases (지난 정보)
+ 
+ **bash**
+ ![Screen Shot 2016-09-24 at 1.41.06 AM](https://i.imgur.com/v5Y7juh.png)
+@@ -240,9 +238,9 @@ Then we can click the `run` button at the preview to run our code.
+ **gnuplot with svg output**
+ ![Screen Shot 2016-09-24 at 1.44.14 AM](https://i.imgur.com/S93g7Tk.png)
+ 
+-## Limitations
++## 한계
+ 
+-- Doesn't work with `ebook` yet.
+-- Might be buggy when using `pandoc document export`
++- 아직 `ebook` 출력에서 작동하지 않는다.
++- `pandoc document export`를 사용할 때 버그가 있을 수 있다.
+ 
+-[➔ Presentation](presentation.md)
++[➔ 프레젠테이션](presentation.md)
+diff --git a/docs/customize-css.md b/docs/customize-css.md
+index 89743eb..b5a404a 100644
+--- a/docs/customize-css.md
++++ b/docs/customize-css.md
+@@ -1,12 +1,12 @@
+-# Customize CSS
++# CSS 편집
+ 
+ ## style.less
+ 
+-To customize css for your markdown file, <kbd>cmd-shift-p</kbd> then run `Markdown Preview Enhanced: Customize Css` command.
++markdown 파일의 css를 사용자 정의 하려면, <kbd>cmd-shift-p</kbd> 다음에 `Markdown Preview Enhanced: Customize Css` 명령을 실행한다.
+ 
+-The `style.less` file will open, and you can override existing style like this:
++그러면 `style.less` 파일이 열리고, 다음과 같이 기존의 style을 재정의할 수 있다.:
+ 
+-> `style.less` file is located at `~/.mume/style.less`
++> `style.less` 파일은 `~/.mume/style.less` 경로에 있다.
+ 
+ ```less
+ .markdown-preview.markdown-preview {
+@@ -39,9 +39,8 @@ The `style.less` file will open, and you can override existing style like this:
+ 
+ ## Local style
+ 
+-Markdown Preview Enhanced also allows you to define different styles for different markdown files.  
+-`id` and `class` can be configured inside front-matter.
+-You can [import](file-imports.md) a `less` or `css` file in your markdown file easily:
++Markdown Preview Enhanced 에서는 각각의 markdown 파일에 대해 style을 정의할 수도 있다.  
++`id` 와 `class` 를 파일의 front-matter에 설정할 수 있다. 그리고 markdown 파일에 `less` 또는 `css` 파일을 [import](file-imports.md) 할 수 있다:
+ 
+ ```markdown
+ ---
+@@ -54,7 +53,7 @@ class: "my-class1 my-class2"
+ # Heading1
+ ```
+ 
+-the `my-style.less` could look like this:
++`my-style.less` 는 다음과 같은 내용이다:
+ 
+ ```less
+ #my-id {
+@@ -72,13 +71,13 @@ the `my-style.less` could look like this:
+ }
+ ```
+ 
+-Every time you changed your `less` file, you can click the refresh button at the right top corner of the preview to recompile less to css.
++`less` 파일을 변경한 경우 미리보기 오른쪽 상단의 refresh 버튼을 눌러 less를 css로 다시 컴파일할 수 있다.
+ 
+ ![](https://cloud.githubusercontent.com/assets/1908863/22716917/c7088ae0-ed5d-11e6-8db9-e1ab035a3a2b.png)
+ 
+-## Change the font family
++## font family 변경
+ 
+-To change the font family of preview, you first need to download the font file `(.ttf)`, then modify `style.less` like below:
++미리보기의 font family를 변경하려면 먼저 폰트 파일 `(.ttf)` 을 다운로드하고 `style.less` 를 다음과 같이 수정하시오:
+ 
+ ```less
+ @font-face {
+@@ -101,5 +100,4 @@ To change the font family of preview, you first need to download the font file `
+   }
+ }
+ ```
+-
+-> However, it is recommended to use online fonts like google fonts.
++> google 폰트와 같은 온라인 폰트 사용을 권장한다.
+diff --git a/docs/developer.md b/docs/developer.md
+index 1644bf7..4e0ca8e 100644
+--- a/docs/developer.md
++++ b/docs/developer.md
+@@ -1,20 +1,20 @@
+-# Developer
++# 개발자에게
+ 
+-## Develop this package for Atom
++## Atom용 패키지 개발
+ 
+-Feel free to post pull request, report issues, or request new features!
++부담없이 pull request, issues 보고하거나 새로운 기능 요청을 요청 해주기 바란다!
+ 
+-To modify and develop **markdown-preview-enhanced** package, you need to perform [local installation](installation.md?id=install-from-github).
++**markdown-preview-enhanced**를 수정하고 개발하려면 [local installation](installation.md?id=install-from-github) 이 필요하다.
+ 
+-After you have done installing the package, follow these steps:
++패키지 설치가 완료되면 다음 단계를 진행하라:
+ 
+-- Open **markdown-preview-enhanced** folder in **Atom Editor** from **View->Developer->Open in Dev Mode...**
+-- Then you can modify the code.
+-  Every time after you update the code, you need to <kbd>cmd-shift-p</kbd> then choose `Window: Reload` to reload the package to see the update.
++- **markdown-preview-enhanced** 폴더를 **Atom Editor** 에서 **View->Developer->Open in Dev Mode...** 를 통해 연다.
++- 코드를 수정한다. 
++  코드를 수정한 뒤엔, <kbd>cmd-shift-p</kbd> 에서 `Window: Reload` 를 실행해서 패키지를 다시 로드하여 업데이트를 확인할 수 있다.
+ 
+-> As the Atom version is written in TypeScript, it is recommended to install `atom-typescript` to help develop the package.  
+-> Well... I developed the atom version using vscode.
++> Atom 버전은 TypeScript로 작성되었으므로 패키지 개발을 위해 `atom-typescript`를 설치하는 것을 권장한다.  
++> 사실은... Atom 버전은 vscode 를 사용해 개발됐다.
+ 
+-## Develop this package for VS Code
++## VS Code 용 패키지 개발
+ 
+-Clone [vscode-markdown-preview-enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced), then `yarn install`, open in **vscode** and start debugging.
++[vscode-markdown-preview-enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) 를 clone하고 `yarn install`한 뒤, **vscode** 에서 열면 디버깅을 시작할 수 있다.
+diff --git a/docs/diagrams.md b/docs/diagrams.md
+index 15c4513..700e518 100644
+--- a/docs/diagrams.md
++++ b/docs/diagrams.md
+@@ -1,83 +1,82 @@
+-# Diagrams
++# 다이어그램
+ 
+-**Markdown Preview Enhanced** supports rendering `flow charts`, `sequence diagrams`, `mermaid`, `PlantUML`, `WaveDrom`, `GraphViz`, `Vega & Vega-lite`, `Ditaa` diagrams.
+-You can also render `TikZ`, `Python Matplotlib`, `Plotly` and all sorts of other graphs and diagrams by using [Code Chunk](code-chunk.md).
++**Markdown Preview Enhanced** 는 `flow charts`, `sequence diagrams`, `mermaid`, `PlantUML`, `WaveDrom`, `GraphViz`, `Vega & Vega-lite`, `Ditaa` 다이어그램 렌더링을 지원한다. 또한 [Code Chunk](code-chunk.md) 를 사용하여 `TikZ`, `Python Matplotlib`, `Plotly` 및 기타 그래프 및 다이어그램을 렌더링할 수도 있다.
+ 
+-> Please note that some diagrams don't work well with file exports such as PDF, pandoc, etc.
++> 일부 다이어그램은 PDF, pandoc 등의 파일 내보내기에서는 제대로 작동하지 않는다.
+ 
+ ## Flow Charts
+ 
+-This feature is powered by [flowchart.js](https://flowchart.js.org/).
++이 기능은 [flowchart.js](https://flowchart.js.org/) 를 사용한다.
+ 
+-- code block with `flow` notation will be rendered by [flowchart.js](https://flowchart.js.org/).
++- `flow` 표기법의 코드 블록은 [flowchart.js](https://flowchart.js.org/) 에 의해 렌더링된다.
+ 
+ ![screenshot from 2017-11-25 21-43-02](https://user-images.githubusercontent.com/1908863/33236942-aa809c1c-d229-11e7-9c4b-9a680fd852ed.png)
+ 
+ ## Sequence Diagrams
+ 
+-This feature is powered by [js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/).
++이 기능은 [js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/) 를 사용한다.
+ 
+-- code block with `sequence` notation will be rendered by [js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/).
+-- Two themes are supported: `simple`(default theme) and `hand`.
++- `sequence` 표기법의 코드 블록은 [js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/) 에 의해 렌더링 된다.
++- 두 가지 테마 지원: `simple`(기본 테마)와 `hand`.
+ 
+ ![screenshot from 2017-11-25 21-47-41](https://user-images.githubusercontent.com/1908863/33236972-4f190f98-d22a-11e7-842f-d9c4a74d2118.png)
+ 
+ ## Mermaid
+ 
+-Markdown Preview Enhanced uses [mermaid](https://github.com/knsv/mermaid) to render flow charts and sequence diagram.
++Markdown Preview Enhanced는 [mermaid](https://github.com/knsv/mermaid) 를 사용하여 flow chart와 sequence diagram을 렌더링한다.
+ 
+-- code block with `mermaid` notation will be rendered by [mermaid](https://github.com/knsv/mermaid).
+-- check [mermaid doc](https://mermaid-js.github.io/mermaid) for more information about how to create flowchart and sequence diagram
++- `mermaid` 표기법의 코드 블록은 [mermaid](https://github.com/knsv/mermaid) 에 의해 렌더링된다.
++- flow chart와 sequence diagram을 만드는 방법에 대한 자세한 내용은 [mermaid doc](https://mermaid-js.github.io/mermaid) 을 참조하기 바란다.
+   ![screen shot 2017-06-05 at 8 04 58 pm](https://cloud.githubusercontent.com/assets/1908863/26809423/42afb410-4a2a-11e7-8a18-57e7c67caa9f.png)
+ 
+-Three mermaid themes are provided, and you can choose theme from [package settings](usages.md?id=package-settings):
++세 가지 테마가 제공되며 [package settings](usages.md?id=package-settings)에서 테마를 선택할 수 있다:
+ 
+ - `mermaid.css`
+ - `mermaid.dark.css`
+ - `mermaid.forest.css`
+   ![screen shot 2017-06-05 at 8 47 00 pm](https://cloud.githubusercontent.com/assets/1908863/26810274/555562d0-4a30-11e7-91ca-98742d6afbd5.png)
+ 
+-You can also edit the mermaid init config by running `Markdown Preview Enhanced: Open Mermaid Config` command.
++또한 `Markdown Preview Enhanced: Open Mermaid Config` 명령을 실행하여 mermaid의 초기 설정을 편집할 수도 있다.
+ 
+ ## PlantUML
+ 
+-Markdown Preview Enhanced uses [PlantUML](https://plantuml.com/) to create multiple kinds of graph. (**Java** is required to be installed)
++Markdown Preview Enhanced는 [PlantUML](https://plantuml.com/) 을 사용하여 여러 유형의 그래프를 만든다. (**Java** 설치 필요)
+ 
+-- You can install [Graphviz](https://www.graphviz.org/) (not required) to generate all diagram types.
+-- Code block with `puml` or `plantuml` notation will be rendered by [PlantUML](https://plantuml.com/).
++- [Graphviz](https://www.graphviz.org/) (필수는 아님)를 설치하면 모든 종류의 다이어그램을 생성할 수 있다.
++- `puml` 또는 `plantuml` 표기법의 코드 블록은 [PlantUML](https://plantuml.com/) 에 의해 렌더링된다.
+ 
+ ![screen shot 2017-06-05 at 8 05 55 pm](https://cloud.githubusercontent.com/assets/1908863/26809436/65414084-4a2a-11e7-91ee-7b03b0496513.png)
+ 
+-If `@start...` is not found, then `@startuml ... @enduml` will automatically be inserted.
++만약 `@start...` 가 없으면 `@startuml ... @enduml` 이 자동으로 삽입된다.
+ 
+ ## WaveDrom
+ 
+-Markdown Preview Enhanced uses [WaveDrom](https://wavedrom.com/) to create digital timing diagram.
++Markdown Preview Enhanced는 [WaveDrom](https://wavedrom.com/) 을 사용하여 digital timing diagram을 만든다.
+ 
+-- Code block with `wavedrom` notation will be rendered by [WaveDrom](https://github.com/drom/wavedrom).
++- `wavedrom` 표기법의 코드 블록은 [WaveDrom](https://github.com/drom/wavedrom) 에 의해 렌더링된다.
+ 
+ ![screen shot 2017-06-05 at 8 07 30 pm](https://cloud.githubusercontent.com/assets/1908863/26809462/9dc3eb96-4a2a-11e7-90e7-ad6bcb8dbdb1.png)
+ 
+ ## GraphViz
+ 
+-Markdown Preview Enhanced uses [Viz.js](https://github.com/mdaines/viz.js) to render [dot language](https://tinyurl.com/kjoouup) diagram.
++Markdown Preview Enhanced는 [Viz.js](https://github.com/mdaines/viz.js) 를 사용하여 [dot language](https://tinyurl.com/kjoouup) diagram을 렌더링한다.
+ 
+-- Code block with `viz` or `dot` notation will be rendered by [Viz.js](https://github.com/mdaines/viz.js).
+-- You can choose different engines by specifying `{engine="..."}`. Engine `circo`, `dot`, `neato`, `osage`, or `twopi` are supported. Default engine is `dot`.
++- `viz` 또는 `dot` 표기법의 코드 블록은 [Viz.js](https://github.com/mdaines/viz.js) 에 의해 렌더링된다.
++- `{engine =" ... "}` 을 지정하여 엔진을 선택할 수 있다. `circo`, `dot`, `neato`, `osage`, `twopi` 엔진이 지원된다. 기본 엔진은 `dot` 이다.
+ 
+ ![screen shot 2018-03-18 at 3 18 17 pm](https://user-images.githubusercontent.com/1908863/37570596-a565306e-2abf-11e8-8904-d73306f675ec.png)
+ 
+ ## Vega and Vega-lite
+ 
+-Markdown Preview Enhanced supports [vega](https://vega.github.io/vega/) and [vega-lite](https://vega.github.io/vega-lite/) **static** diagrams.
++Markdown Preview Enhanced는 [vega](https://vega.github.io/vega/) 와 [vega-lite](https://vega.github.io/vega-lite/) **정적** 그래프를 지원한다.
+ 
+-- Code block with `vega` notation will be rendered by [vega](https://vega.github.io/vega/).
+-- Code block with `vega-lite` notation will be rendered by [vega-lite](https://vega.github.io/vega-lite/).
+-- Both `JSON` and `YAML` inputs are supported.
++- `vega` 표기법의 코드 블록은 [vega](https://vega.github.io/vega/) 에 의해 렌더링된다.
++- `vega-lite` 표기법의 코드 블록은 [vega-lite](https://vega.github.io/vega-lite/) 에 의해 렌더링된다.
++- `JSON` 및 `YAML` 입력이 모두 지원된다.
+ 
+ ![screen shot 2017-07-28 at 7 59 58 am](https://user-images.githubusercontent.com/1908863/28718265-d023e1c2-736a-11e7-8678-a29704f3a23c.png)
+ 
+-You can also [@import](file-imports.md) a `JSON` or `YAML` file as `vega` diagram, for example:
++`JSON` 또는 `YAML` 파일을 `vega` 다이어그램으로 [@import](file-imports.md) 할 수도 있다. 예:
+ 
+ ```markdown
+ @import "your_vega_source.json" {as="vega"}
+@@ -86,11 +85,11 @@ You can also [@import](file-imports.md) a `JSON` or `YAML` file as `vega` diagra
+ 
+ ## Ditaa
+ 
+-Markdown Preview Enhanced supports [ditaa](https://github.com/stathissideris/ditaa) that can convert diagrams drawn using ascii art ('drawings' that contain characters that resemble lines like | / - ), into proper bitmap graphics.
++Markdown Preview Enhanced는 ascii art로 그려진 다이어그램 (| /-과 같은 선과 유사한 문자가 포함된 '그림')을 비트맵 그래픽으로 변환할 수 있는 [ditaa](https://github.com/stathissideris/ditaa) 를 지원한다.
+ 
+-(**Java** is required to be installed)
++(**Java** 설치가 요구됨)
+ 
+-`ditaa` is integrated with [code chunk](code-chunk.md), for example:
++`ditaa`는 [code chunk](code-chunk.md)와 통합되어 있다. 예:
+ 
+ <pre>
+   ```ditaa {cmd=true args=["-E"]}
+@@ -106,15 +105,15 @@ Markdown Preview Enhanced supports [ditaa](https://github.com/stathissideris/dit
+   ```
+ </pre>
+ 
+-> <kbd>shift-enter</kbd> to run code chunk.
+-> set `{hide=true}` to hide code block.
+-> set `{run_on_save=true}` to render ditaa when you save the markdown file.
++> <kbd>shift-enter</kbd> 로 code chunk를 실행할 수 있다.
++> 코드 블럭을 숨기려면 `{hide=true}` 를 설정한다.
++> markdown 파일을 저장할 때 ditaa를 렌더링하려면 `{run_on_save=true}`를 설정한다.
+ 
+ ![screen shot 2017-07-28 at 8 11 15 am](https://user-images.githubusercontent.com/1908863/28718626-633fa18e-736c-11e7-8a4a-915858dafff6.png)
+ 
+ ---
+ 
+-If you don't want to render graphs but only display code block, then you can add `{code_block=true}` like below:
++그래프를 렌더링하지 않고 코드 블록만 표시하려면 아래와 같이 {code_block = true} 를 추가한다:
+ 
+     ```mermaid {code_block=true}
+     // your mermaid code here
+@@ -122,24 +121,24 @@ If you don't want to render graphs but only display code block, then you can add
+ 
+ ---
+ 
+-You can set attributes for the container of the diagram.
+-For example:
++다이어그램의 컨테이너 속성을 설정할 수 있다.
++예:
+ 
+     ```puml {align="center"}
+     a->b
+     ```
+ 
+-will put the puml diagram at the center of preview.
++이 경우 미리보기 중앙에 puml 다이어그램이 배치된다.
+ 
+ ---
+ 
+-When you export your markdown file to [GFM Markdown](markdown.md), the diagrams will be saved as png images to your `imageFolderPath` defined in package settings.
+-You can control the exported image filename by declaring `{filename="your_file_name.png"}`.
++markdown 파일을 [GFM Markdown](markdown.md) 으로 내보내면 다이어그램이 패키지 설정에 정의된 `imageFolderPath` 에 png 이미지로 저장된다.
++`{filename ="your_file_name.png"}` 를 선언하여 내보낼 이미지의 파일 이름을 제어할 수 있다.
+ 
+-For example:
++예:
+ 
+     ```mermaid {filename="my_mermaid.png"}
+     ...
+     ```
+ 
+-[➔ TOC](toc.md)
++[➔ 목차](toc.md)
+diff --git a/docs/ebook.md b/docs/ebook.md
+index bf2d83d..76b426b 100644
+--- a/docs/ebook.md
++++ b/docs/ebook.md
+@@ -1,32 +1,31 @@
+-# eBook generation
++# eBook 생성
+ 
+-Inspired by _GitBook_  
+-**Markdown Preview Enhanced** can output content as ebook (ePub, Mobi, PDF).
++_GitBook_ 에서 영감을 받음.  
++**Markdown Preview Enhanced**는 컨텐츠를 ebook(ePub, Mobi, PDF)로 출력할 수 있다.
+ 
+ ![Screen Shot 2016-09-08 at 9.42.43 PM](https://ooo.0o0.ooo/2016/09/09/57d221c0a618a.png)
+ 
+-To generate ebook, you need to have `ebook-convert` installed.
++ebook을 생성하려면 `ebook-convert`가 설치되어 있어야 한다.
+ 
+-## Installing ebook-convert
++## ebook-convert 설치
+ 
+ **macOS**  
+-Download the [Calibre Application](https://calibre-ebook.com/download). After moving the `calibre.app` to your Applications folder, create a symbolic link to the `ebook-convert` tool:
++[Calibre Application](https://calibre-ebook.com/download)을 다운로드하시오. `calibre.app` 를 응용 프로그램 폴더로 이동한 후 `ebook-convert` 도구에 대한 심볼릭 링크를 만든다:
+ 
+ ```shell
+ $ sudo ln -s ~/Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
+ ```
+ 
+ **Windows**  
+-Download and Install the [Calibre Application](https://calibre-ebook.com/download).  
+-Add `ebook-convert` to your `$PATH`.
++[Calibre Application](https://calibre-ebook.com/download)을 다운로드하고 설치한다. `$PATH`에 `ebook-convert`를 추가한다.
+ 
+-## eBook Example
++## eBook 예제
+ 
+-An eBook example project can be found [here](https://github.com/shd101wyy/ebook-example).
++eBook 샘플 프로젝트는 [여기](https://github.com/shd101wyy/ebook-example)에 있다.
+ 
+-## Start writing eBook
++## eBook 작성 시작하기
+ 
+-You can set up a ebook configuration by simply adding `ebook front-matter` into your markdown file.
++markdown 파일에 `ebook front-matter`를 추가하기만 하면 ebook 설정을 구성할 수 있다.
+ 
+ ```yaml
+ ---
+@@ -40,9 +39,9 @@ ebook:
+ 
+ ---
+ 
+-## Demo
++## 데모
+ 
+-`SUMMARY.md` is a sample entry file. It should also have a TOC to help organize the book:
++`SUMMARY.md`는 sample entry 파일이다. 책을 정리하는 목차가 붙어 있다:
+ 
+ ```markdown
+ ---
+@@ -65,46 +64,46 @@ This is the preface, but not necessary.
+   - [Known issues](/chapter2/issues.md)
+ ```
+ 
+-The last list in the markdown file is regarded as TOC.
++markdown 파일의 마지막 list는 목차로 간주된다.
+ 
+-The link's title is used as the chapter's title, and the link's target is a path to that chapter's file.
++링크의 제목은 챕터의 제목으로 사용되며 링크의 대상은 해당 챕터의 파일에 대한 경로다.
+ 
+ ---
+ 
+-To export ebook, open the `SUMMARY.md` with the preview opened. Then right click at the preview, choose `Export to Disk`, then choose `EBOOK` option. You can then export your ebook.
++전자책을 내보내려면 미리보기를 연 상태에서 `SUMMARY.md` 를 연다. 그런 다음 미리보기를 마우스 오른쪽 단추로 클릭하고 `Export to Disk` 를 선택한 다음 `EBOOK` 옵션을 선택해서 ebook을 내보낼 수 있다.
+ 
+ ### Metadata
+ 
+-- **theme**
+-  the theme to use for eBook, by default it will use the preview theme. The list of available themes could be found at `previewTheme` section in [this doc](https://github.com/shd101wyy/mume/#markdown-engine-configuration).
++- **theme**  
++  eBook에 사용할 테마. 기본적으로 미리보기 테마를 사용한다. 사용 가능한 테마 목록은 [이 문서](https://github.com/shd101wyy/mume/#markdown-engine-configuration) 의 `previewTheme` 섹션에 있다.
+ - **title**  
+-  title of your book
++  ebook의 제목
+ - **authors**  
+-  author1 & author2 & ...
++  저자1 & 저자2 & ...
+ - **cover**  
+   https://path-to-image.png
+ - **comments**  
+-  Set the ebook description
++  ebook에 대한 설명
+ - **publisher**  
+-  who is the publisher?
++  ebook의 퍼블리셔
+ - **book-producer**  
+-  who is the book producer
++  ebook의 프로듀서
+ - **pubdate**  
+-  publish date
++  ebook 발행일
+ - **language**  
+-  Set the language
++  ebook의 언어
+ - **isbn**  
+-  ISBN of the book
++  ebook의 ISBN
+ - **tags**  
+-  Set the tags for the book. Should be a comma separated list.
++  ebook의 태그를 설정한다. 목록은 쉼표로 구분되어 있어야 한다.
+ - **series**  
+-  Set the series this ebook belongs to.
++  ebook이 속한 시리즈
+ - **rating**  
+-  Set the rating. Should be a number between 1 and 5.
++  ebook의 평점. 1에서 5점 사이의 숫자로 설정되어야 한다.
+ - **include_toc**  
+-  `default: true` Whether or not to include the TOC you wrote in your entry file.
++  `기본값: true` 항목 파일에 기록한 목차를 포함할지 여부를 설정한다.
+ 
+-For example:
++예:
+ 
+ ```yaml
+ ebook:
+@@ -115,27 +114,27 @@ ebook:
+ 
+ ### Feel and Look
+ 
+-The following options are provided to help control the look and feel of the output
++다음 옵션은 출력의 look and feel을 제어하는 데 도움을 준다.
+ 
+ - **asciiize** `[true/false]`  
+-  `default: false`, Transliterate unicode characters to an ASCII representation. Use with care because this will replace unicode characters with ASCII
++  `기본값: false`, 유니코드 문자를 ASCII 표현으로 변환한다. 이것은 유니 코드 문자를 ASCII로 대체하므로 주의해서 사용하시오.
+ - **base-font-size** `[number]`  
+-  The base font size in pts. All font sizes in the produced book will be rescaled based on this size. By choosing a larger size you can make the fonts in the output bigger and vice versa. By default, the base font size is chosen based on the output profile you chose.
++  기본 글꼴 크기를 포인트 단위로 설정한다. 작성된 ebook의 모든 폰트 사이즈는, 이 사이즈에 의해 재조정 된다. 큰 사이즈를 선택해 출력의 폰트를 크게 하거나, 그 반대를 할 수도 있다. 기본적으로 기본 글꼴 크기는 선택한 출력 프로필을 기반으로 선택된다.
+ - **disable-font-rescaling** `[true/false]`  
+-  `default: false` Disable all rescaling of font sizes.
++  `기본값: false` 글꼴 크기의 모든 재조정을 비활성화한다.
+ - **line-height** `[number]`  
+-  The line height in pts. Controls spacing between consecutive lines of text. Only applies to elements that do not define their own line height. In most cases, the minimum line height option is more useful. By default no line height manipulation is performed.
++  포인트 단위로 줄 높이를 설정한다. 연속된 텍스트 줄 사이의 간격을 제어한다. 고유한 행의 높이를 정의하지 않는 요소에만 적용된다. 대부분의 경우 최소 행 높이 옵션이 더 편리하다. 기본적으로 행 높이 조작은 수행되지 않는다.
+ - **margin-top** `[number]`  
+-  `default: 72.0` Set the top margin in pts. Default is 72. Setting this to less than zero will cause no margin to be set (the margin setting in the original document will be preserved). Note: 72 pts equals 1 inch
++  `기본값: 72.0` 상단 여백을 포인트 단위로 설정한다. 이것을 0보다 작게 설정하면 여백이 설정되지 않는다 (원본 문서의 여백 설정은 유지된다). 참고 : 72 포인트는 1 인치에 해당함
+ - **margin-right** `[number]`  
+-  `default: 72.0`
++  `기본값: 72.0`
+ - **margin-bottom** `[number]`  
+-  `default: 72.0`
++  `기본값: 72.0`
+ - **margin-left** `[number]`  
+-  `default: 72.0`
++  `기본값: 72.0`
+ - **margin** `[number/array]`  
+-  `default: 72.0`  
+-  You can define **margin top/right/bottom/left** at the same time. For example:
++  `기본값: 72.0`  
++  **상하좌우 여백** 을 동시에 정의할 수 있다. 예를 들어:
+ 
+ ```yaml
+ ebook:
+@@ -152,7 +151,7 @@ ebook:
+   margin: [1, 2, 3, 4] # margin-top=1, margin-right=2, margin-bottom=3, margin-left=4
+ ```
+ 
+-For example:
++예:
+ 
+ ```yaml
+ ebook:
+@@ -161,13 +160,13 @@ ebook:
+   margin: 72
+ ```
+ 
+-## Output Formats
++## 출력 형식
+ 
+-Right now you can output ebook in format of `ePub`, `mobi`, `pdf`, `html`.
++현재 ebook을 `ePub`, `mobi`, `pdf`, `html` 형식으로 출력할 수 있다.
+ 
+ ### ePub
+ 
+-To configure `ePub` output, simply add `epub` after `ebook`.
++`ePub` 출력을 설정하려면 `ebook` 뒤에 `epub` 을 추가한다.
+ 
+ ```yaml
+ ---
+@@ -179,18 +178,18 @@ ebook:
+ 
+ ```
+ 
+-the following options are provided:
++다음의 옵션들을 사용할 수 있다:
+ 
+ - **no-default-epub-cover** `[true/false]`  
+-  Normally, if the input file has no cover and you don't specify one, a default cover is generated with the title, authors, etc. This option disables the generation of this cover.
++  일반적으로 입력 파일에 표지가 없고 지정되지 않았으면, 기본 표지가 제목, 저자 등과 함께 생성된다. 이 옵션은 이 표지 생성을 비활성화한다.
+ - **no-svg-cover** `[true/false]`  
+-  Do not use SVG for the book cover. Use this option if your EPUB is going to be used on a device that does not support SVG, like the iPhone or the JetBook Lite. Without this option, such devices will display the cover as a blank page.
++  표지에 SVG를 사용하지 마시오. iPhone 또는 JetBook Lite와 같은 SVG를 지원하지 않는 장치에서 EPUB를 사용하려면 이 옵션을 사용한다. 이 옵션이 없으면 이러한 장치는 표지를 빈 페이지로 표시할 것이다.
+ - **pretty-print** `[true/false]`  
+-  If specified, the output plugin will try to create output that is as human readable as possible. May not have any effect for some output plugins.
++  지정된 경우 출력 플러그인은 가능한 한 인간이 읽을 수 있는 형식의 출력을 작성하려고 한다. 일부 출력 플러그인에는 효과가 없을 수 있다.  
+ 
+ ### PDF
+ 
+-To configure `pdf` output, simply add `pdf` after `ebook`.
++`pdf` 출력을 설정하려면 `ebook` 뒤에 `pdf` 를 추가한다.
+ 
+ ```yaml
+ ebook:
+@@ -200,27 +199,25 @@ ebook:
+     header-template: "<span> Written by shd101wyy _PAGENUM_ </span>"
+ ```
+ 
+-the following options are provided:
++다음의 옵션들을 사용할 수 있다:
+ 
+ - **paper-size**  
+-  The size of the paper. This size will be overridden when a non default output profile is used. Default is letter. Choices are `a0`, `a1`, `a2`, `a3`, `a4`, `a5`, `a6`, `b0`, `b1`, `b2`, `b3`, `b4`, `b5`, `b6`, `legal`, `letter`
++  용지 크기. 이 크기는 기본이 아닌 출력 프로파일을 사용할 때 재정의 된다. 기본값은 letter 이다. `a0`, `a1`, `a2`, `a3`, `a4`, `a5`, `a6`, `b0`, `b1`, `b2`, `b3`, `b4`, `b5`, `b6`, `legal`, `letter` 를 사용할 수 있다.
+ - **default-font-size** `[number]`  
+-  The default font size
++  기본 폰트 크기
+ - **footer-template**  
+-  An HTML template used to generate footers on every page. The strings `_PAGENUM_`, `_TITLE_`, `_AUTHOR_` and `_SECTION_` will be replaced by their current values.
++  각 페이지에 꼬리말을 생성하는 데 사용되는 HTML 템플릿이다. 문자열 `_PAGENUM_`, `_TITLE _`, `_AUTHOR_`, `_SECTION_` 은 현재 값으로 대체된다.
+ - **header-template**  
+-  An HTML template used to generate headers on every page. The strings `_PAGENUM_`, `_TITLE_`, `_AUTHOR_` and `_SECTION_` will be replaced by their current values.
++  각 페이지에 머리말을 생성하는 데 사용되는 HTML 템플릿이다. 문자열 `_PAGENUM_`, `_TITLE _`, `_AUTHOR_`, `_SECTION_` 은 현재 값으로 대체된다.
+ - **page-numbers** `[true/false]`  
+-  `default: false`  
+-  Add page numbers to the bottom of every page in the generated PDF file. If you specify a footer template, it will take precedence over this option.
++  `기본값: false` 
++  생성된 PDF 파일의 모든 페이지 하단에 페이지 번호를 추가한다. 꼬리말 템플릿을 지정하면 이 옵션보다 먼저 적용된다. 
+ - **pretty-print** `[true/false]`  
+-  If specified, the output plugin will try to create output that is as human readable as possible. May not have any effect for some output plugins.
++  지정된 경우 출력 플러그인은 가능한 한 인간이 읽을 수 있는 형식의 출력을 작성하려고 한다. 일부 출력 플러그인에는 효과가 없을 수 있다. 
+ 
+ ### HTML
+ 
+-Exporting `.html` doesn't depend on `ebook-convert`.  
+-If you are exporting `.html` file, then all local images will be included as `base64` data inside a single `html` file.  
+-To configure `html` output, simply add `html` after `ebook`.
++`.html` 내보내기는 `ebook-convert` 에 의존하지 않는다. `.html` 파일을 내보낼 때 모든 로컬 이미지는 하나의 `html` 파일에 `base64` 데이터로 포함된다. `html` 출력을 설정하려면 `ebook` 뒤에 `html` 을 추가한다.
+ 
+ ```yaml
+ ebook:
+@@ -229,11 +226,11 @@ ebook:
+ ```
+ 
+ - **cdn**  
+-  Load css and javascript files from `cdn.js`. This option is only used when exporting `.html` file.
++  `cdn.js` 에서 css 및 javascript 파일을 로드한다. 이 옵션은 `.html` 파일을 내보낼 때만 사용된다.
+ 
+ ## ebook-convert Arguments
+ 
+-If there are `ebook-convert` features you want to use that lack equivalents in the YAML options described above you can still use them by passing custom `args`. For example:
++위의 YAML 옵션에 해당하는 기능이 없는 `ebook-convert` 기능을 사용하려는 경우, 사용자 정의된 `args` 를 건네주는 것으로 사용할 수 있다. 예를 들어:
+ 
+ ```yaml
+ ---
+@@ -244,11 +241,11 @@ ebook:
+ 
+ ```
+ 
+-You can find a list of arguments in [ebook-convert manual](https://manual.calibre-ebook.com/generated/en/ebook-convert.html).
++arguments 리스트는 [ebook-convert manual](https://manual.calibre-ebook.com/generated/en/ebook-convert.html) 에 있다.
+ 
+-## Export on save
++## 저장과 함께 내보내기
+ 
+-Add the front-matter like below:
++다음과 같이 front-matter를 추가한다:
+ 
+ ```yaml
+ ---
+@@ -263,13 +260,13 @@ export_on_save:
+ ---
+ ```
+ 
+-So the ebooks will be generated every time you save your markdown source file.
++이렇게 설정하면 markdown 파일을 저장할 때마다 ebook이 생성된다.
+ 
+-## Known Issues & Limitations
++## 알려진 이슈 & 한계
+ 
+-- eBook generation is still under development.
+-- All SVG graph generated by `mermaid`, `PlantUML`, etc will not work in the ebook generated. Only `viz` works.
+-- Only **KaTeX** can be used for Math Typesetting.  
+-  And the generated ebook file doesn't render math expression properly in **iBook**.
+-- **PDF** and **Mobi** generation is buggy.
+-- **Code Chunk** doesn't work with Ebook generation.
++- eBook 생성은 아직 개발 중인 기능이다.
++- `mermaid`, `PlantUML` 등으로 생성된 모든 SVG 그래프는 생성된 전자책에서 작동하지 않는다. 오직 `viz`만 작동한다. 
++- 오직 **KaTeX** 만 수식에 사용될 수 있다. 
++  또한 생성된 ebook 파일은 **iBook**에서 수식을 제대로 렌더링하지 못한다.
++- **PDF** 및 **Mobi** 출력에는 버그가 있다.
++- **Code Chunk** 는 ebook 생성에서 작동하지 않는다.
+diff --git a/docs/extend-parser.md b/docs/extend-parser.md
+index 4579d86..c3a92cf 100644
+--- a/docs/extend-parser.md
++++ b/docs/extend-parser.md
+@@ -1,9 +1,8 @@
+-# Extend Markdown Parser
++# Markdown Parser 확장
+ 
+-Run `Markdown Preview Enhanced: Extend Parser` command.  
+-Then edit the `parser.js` file.
++`Markdown Preview Enhanced: Extend Parser` 명령을 실행한다. 그런 다음 `parser.js` 파일을 편집한다.
+ 
+-> `parser.js` file is located at `~/.mume/parser.js`
++> `parser.js` 파일은 `~/.mume/parser.js` 경로에 위치하고 있다.
+ 
+ ```javascript
+ module.exports = {
+@@ -20,7 +19,7 @@ module.exports = {
+ };
+ ```
+ 
+-For example, if you want to prepend `😀` to every headers, then just edit `onWillParseMarkdown` like this:
++예를 들어, 모든 제목 앞에 `😀` 를 붙이려면 다음과 같이 `onWillParseMarkdown` 을 편집한다:
+ 
+ ```javascript
+ module.exports = {
+@@ -35,7 +34,7 @@ module.exports = {
+ 
+ ![screen shot 2017-07-14 at 1 04 19 am](https://user-images.githubusercontent.com/1908863/28200243-78e1a10a-6830-11e7-836b-2defc528ee07.png)
+ 
+-For example, if you want to use `<div class="mermaid"></div>` for mermaid graph.
++예를 들어, mermaid 그래프에 `<div class="mermaid"></div>` 를 사용하려는 경우.
+ 
+ ```javascript
+ module.exports = {
